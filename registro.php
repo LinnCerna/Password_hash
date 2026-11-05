@@ -1,5 +1,4 @@
 <?php
-// registro de usuarios con password_hash
 echo "<h2>Registro de usuarios</h2>";
 
 $dm = "";

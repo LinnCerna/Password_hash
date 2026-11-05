@@ -1,7 +1,5 @@
-
+// esto se hizo con el comando: password_verify
 <?php
-// Inicio de sesion con password_verify
-
 session_start();
 
 echo "<h2>Inicio de sesion</h2>";
