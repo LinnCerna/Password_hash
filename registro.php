@@ -1,3 +1,4 @@
+// esto se hizo con el comando: password_hash
 <?php
 echo "<h2>Registro de usuarios</h2>";
 
