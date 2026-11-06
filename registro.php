@@ -34,3 +34,4 @@ if(isset($_POST['registrar'])){
         echo $dm . "<br>";
 }
 ?>
+<-- prueba de cambio -->
