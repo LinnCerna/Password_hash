@@ -1,7 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 <?php
-echo "<h2>Registro de usuarios</h2>";
+    echo "<h2>Registro de usuarios</h2>";
 ?>
 <form method="POST">
+    <img src="img/registro.png" width="100">
     Nombre: <input type="text" name="nombre"><br><br>
     Usuario: <input type="text" name="usuario"><br><br>
     Contraseña: <input type="password" name="pass"><br><br>
@@ -34,4 +44,6 @@ if(isset($_POST['registrar'])){
         echo $dm . "<br>";
 }
 ?>
-<-- prueba de cambio -->
+
+</body>
+</html>

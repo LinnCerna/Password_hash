@@ -7,12 +7,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <?php
-echo "<h2>Inicio de sesion</h2>";
+   echo "<h2>Inicio de sesion</h2>";
 ?>
     <form method="POST">
+        <img src="img/login.png" width="100">
     <br>
     Usuario: <input type="text" name="usuario"><br><br>
     Contraseña: <input type="password" name="pass"><br><br>
